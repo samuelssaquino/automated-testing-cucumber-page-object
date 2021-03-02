@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.424">
+    <testcase classname="Acessar a página do JavaScript CRUD" name="Acessar a página do JavaScript CRUD" time="0.128">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given eu acesso a pagina do Java Script CRUD................................undefined
+And verifico que o label "USER REGISTRATION"................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="AddUser" name="Add User" time="0.026">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I access the page "https://samuelssaquino.github.io/crud-javascript/".undefined
+And I check the "USER REGISTRATION" page....................................skipped
+And I check the AddUser button..............................................skipped
+Then I click on the add user button.........................................skipped
+And I verify that the modal register is displayed...........................skipped
+Then I enter the field first name with "Mike" and field last name with "Johnson".skipped
+And I enter the other fields with valid data................................skipped
+When I click the save button................................................skipped
+Then The application should display the message "The user Mike Johnson has been successfully registered!".skipped
+And The application should display the registered user in the list..........skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>

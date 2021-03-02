@@ -1,0 +1,164 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-01T02:05:30.630Z",
+        "line": 2,
+        "name": "Acessar a página do JavaScript CRUD",
+        "description": "",
+        "id": "acessar-a-página-do-javascript-crud;acessar-a-página-do-javascript-crud",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "eu acesso a pagina do Java Script CRUD",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 993500,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "verifico que o label \"USER REGISTRATION\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Acessar a página do JavaScript CRUD",
+    "description": "",
+    "id": "acessar-a-página-do-javascript-crud",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Acessar%20JavaScript%20CRUD.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-01T02:05:30.806Z",
+        "line": 7,
+        "name": "Add User",
+        "description": "",
+        "id": "adduser;add-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I access the page \"https://samuelssaquino.github.io/crud-javascript/\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 893100,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I check the \"USER REGISTRATION\" page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I check the AddUser button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I click on the add user button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I verify that the modal register is displayed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1021900,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I enter the field first name with \"Mike\" and field last name with \"Johnson\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I enter the other fields with valid data",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I click the save button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "The application should display the message \"The user Mike Johnson has been successfully registered!\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 297900,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "The application should display the registered user in the list",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@createUser"
+          }
+        ]
+      }
+    ],
+    "name": "AddUser",
+    "description": "  As a system user\n  I want to add a new user\n  And verify that all fields have been successfully registered",
+    "id": "adduser",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Registrer%20a%20New%20User.feature",
+    "tags": []
+  }
+]
